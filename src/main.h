@@ -1,5 +1,5 @@
 /* 
- * Copyright (C) 2009  Sean McKean
+ * Copyright (C) 2009, 2013  Sean McKean
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -28,10 +28,9 @@
 
 
 /* These defines control debugging states. */
-//#define DEBUG_DIAGNOSTICS
-//#define DEBUG_SHOW_FAST_REDRAWS
-//#define DEBUG_ORIENT_CORNERS
-//#define DEBUG_SHOW_MAP
+/*#define DEBUG_DIAGNOSTICS*/
+/*#define DEBUG_ORIENT_CORNERS*/
+/*#define DEBUG_SHOW_MAP*/
 
 #define SCREEN_W  480
 #define SCREEN_H  480
@@ -46,7 +45,7 @@
 
 #define SPRITE_SIZE  64
 #define NUM_BUTTONS  8
-#define PLAYER_KEY_MOVE_TIME  120
+#define PLAYER_KEY_MOVE_TIME  80
 #define PLAYER_MOUSE_MOVE_TIME  80
 
 #define MAX_PSG_LENGTH  12
@@ -61,7 +60,6 @@
 #define PLAYER_ZOOM_SPEED_DIV  30.0f
 
 #define MAZE_ROTATE_TIME  200
-#define MOUSE_DELAY_TIME  400
 
 #define ROOM_COLOR  black
 #define WALL_COLOR  white
@@ -164,7 +162,6 @@ int maze_size,
     rotating,
     show_full_map,
     follow_player,
-    have_followed,
     playing,
     fast_graphics,
     fast_move,

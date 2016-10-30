@@ -1,10 +1,10 @@
 # Makefile for Cube Escape
 
-CC     = gcc
-CFLAGS = $(shell sdl-config --cflags)
-LIBS   = $(shell sdl-config --libs) -lm -lSDL_ttf -lSDL_image
+CC     = i686-pc-mingw32-gcc
+CFLAGS = $(shell i686-pc-mingw32-sdl-config --cflags)
+LIBS   = $(shell i686-pc-mingw32-sdl-config --libs) -lm -lSDL_ttf -lSDL_image -lpng -ljpeg -lfreetype -lz
 
-TARGET  = cube-escape
+TARGET  = cube-escape.exe
 
 HEADERS = src/main.h \
           src/states.h \

@@ -1,4 +1,4 @@
-Cube Escape v0.8, written by Sean McKean, Gamechild Software
+Cube Escape v0.9, written by Sean McKean, Systemsymmetry Software
 
 Description:
     You are inside a cube made up of numerous shells, with a maze etched
@@ -48,6 +48,9 @@ Controls:
         the maze appropriately.
 
 Updates:
+    v0.9: Minor bugs fixed. Adjusted player's mouse and keyboard movement
+          to be the same.
+
     v0.8: Added improved mouse support; maze can now be traversed with
           just the mouse, keyboard, or both.
           Added option to allow simplified graphics for older computers.
@@ -67,5 +70,4 @@ TODO:
     - Add sound support.
     - Allow more than one exit per level.
 
-Questions... Ideas.. Comments.
-Email: <smckean@yvn.com>
+Email: <smckean@systemsymmetry.com>
